@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f7f7f7;
+}
+
+.main-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header-wrapper p {
+  color: #232323;
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.input-wrapper textarea {
+  height: 220px;
+  width: 500px;
+  resize: none;
+  outline: none;
+  border: 2px solid #ffffff;
+  padding: 10px 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: 0.3s ease;
+  font-weight: 600;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.input-wrapper textarea::placeholder {
+  color: #c2c2c2;
+}
+
+.input-wrapper textarea:focus {
+  border: 2px solid #8ac242;
+}
+
+.app-btn {
+  height: 60px;
+  width: 240px;
+  padding: 12px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fafafa;
+  cursor: pointer;
+  transition: 0.4s ease;
+  background: #8ac242;
+}
+
+.app-btn:hover {
+  box-shadow: 2px 2px 20px #8ac242;
+}
+
+.output-wrapper textarea {
+  height: 160px;
+  width: 500px;
+  resize: none;
+  outline: none;
+  border: none;
+  padding: 10px 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  background: #fafafa;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.output-wrapper textarea::placeholder {
+  color: #c2c2c2;
+}
