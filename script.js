@@ -22,6 +22,7 @@ translateBtn.addEventListener('click', () => {
         output.innerText = yodaText;
     })
     .catch(err => {
+        output.innerText = "The API query limit is exhausted!"
         console.log("The API limit is exhausted!");
     })
 })
